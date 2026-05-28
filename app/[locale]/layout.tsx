@@ -25,15 +25,15 @@ export async function generateMetadata({
 
   return {
     title: isZh
-      ? "Temp Mail-临时邮件-安全、即时、快速- DuckMail"
-      : "Temp Mail - Secure, Instant, Fast - DuckMail",
+      ? "作者闲鱼：每天都好困"
+      : "作者闲鱼：每天都好困",
     description: isZh
-      ? "使用 DuckMail 保护您的个人邮箱地址免受垃圾邮件、机器人、钓鱼和其他在线滥用——安全的临时邮件服务。"
-      : "Protect your personal email address from spam, bots, phishing and other online abuse with DuckMail - secure temporary email service.",
+      ? "作者闲鱼：每天都好困。用于Steam账户安全的临时邮件服务。"
+      : "作者闲鱼：每天都好困。用于Steam账户安全的临时邮件服务。",
     icons: {
-      icon: "https://img.116119.xyz/img/2025/06/08/547d9cd9739b8e15a51e510342af3fb0.png",
-      shortcut: "https://img.116119.xyz/img/2025/06/08/547d9cd9739b8e15a51e510342af3fb0.png",
-      apple: "https://img.116119.xyz/img/2025/06/08/547d9cd9739b8e15a51e510342af3fb0.png",
+      icon: "https://cloudflarecnimg.scdn.io/i/6a188eb10c8ee_1779994289.png",
+      shortcut: "https://cloudflarecnimg.scdn.io/i/6a188eb10c8ee_1779994289.png",
+      apple: "https://cloudflarecnimg.scdn.io/i/6a188eb10c8ee_1779994289.png",
     },
     alternates: {
       languages: {
