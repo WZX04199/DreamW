@@ -31,7 +31,7 @@ export default function Sidebar({ activeItem, onItemClick, isMobile = false }: S
             <div className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden">
               <img
                 src="https://cloudflarecnimg.scdn.io/i/6a188eb10c8ee_1779994289.png"
-                alt="DuckMail Logo"
+                alt="作者闲鱼：每天都好困"
                 className="w-full h-full object-contain"
               />
             </div>
