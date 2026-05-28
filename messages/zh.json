@@ -18,8 +18,8 @@
     "contentCopied": "内容已复制"
   },
   "metadata": {
-    "title": "Temp Mail-临时邮件-安全、即时、快速- DuckMail",
-    "description": "使用 DuckMail 保护您的个人邮箱地址免受垃圾邮件、机器人、钓鱼和其他在线滥用——安全的临时邮件服务。"
+    "title": "作者闲鱼：每天都好困",
+    "description": "专业的Steam账号供应商"
   },
   "header": {
     "switchToLight": "切换到浅色模式",
@@ -52,26 +52,23 @@
     "inbox": "收件箱",
     "refresh": "刷新",
     "updates": "更新通知",
-    "api": "API 文档",
-    "faq": "常见问题",
-    "privacy": "隐私政策"
   },
   "emptyState": {
-    "title": "临时邮件",
-    "description": "使用我们的免费临时一次性匿名邮件服务，保护您的个人邮箱地址免受垃圾邮件、机器人、钓鱼和其他在线滥用的侵害。",
-    "noRisk": "无需承诺，无风险——只需安全、即时地访问临时邮箱地址。",
-    "poweredBy": "DuckMail 使用自建后端服务，为您提供稳定可靠的临时邮件服务，Mail.tm 作为备选提供商。",
+    "title": "作者闲鱼：每天都好困",
+    "description": "专业的Steam账号供应商",
+    "noRisk": "如需其他电脑端业务均可联系",
+    "poweredBy": "感谢您的购买与支持！",
     "useNow": "一键创建临时邮箱",
     "creating": "正在创建..."
   },
   "featureCards": {
-    "secureTitle": "安全的临时邮箱",
-    "secureDesc": "您的临时邮箱地址受到可靠密码保护，在浏览器中随机生成，为您提供防止未经授权访问和潜在泄露的屏障。",
-    "instantTitle": "即时一次性邮箱",
+    "secureTitle": "安全的Steam邮箱",
+    "secureDesc": "您的邮箱地址受到可靠密码保护，在浏览器中随机生成，为您提供防止未经授权访问和潜在泄露的屏障。",
+    "instantTitle": "即时邮箱",
     "instantDesc": "不再浪费宝贵时间进行注册、填表或解决验证码。您的临时邮箱地址可立即使用，让您轻松掌控一切。",
-    "fastTitle": "快速匿名邮件服务",
+    "fastTitle": "安全的保证",
     "fastDesc": "体验快速的消息传递，无延迟或限制。我们的服务经过精心调优，确保最大传递速度，让您保持无缝连接。",
-    "poweredBy": "DuckMail 使用自建后端 API 服务，Mail.tm 作为部分用户的备选提供商。"
+    "poweredBy": ""
   },
   "messageList": {
     "inbox": "收件箱",
@@ -198,16 +195,14 @@
   },
   "updateNotice": {
     "title": "系统更新通知",
-    "date": "2026年1月16日",
+    "date": "2026年5月29日",
     "storageUpgrade": "存储系统升级",
-    "storageUpgradeDesc": "由于之前系统的存储方式存在部分问题，影响了 API 性能，因此在 2026 年 1 月 16 日进行了后端的存储方式重构，采取更加高效化的存储方式。",
-    "accountDataNotice": "账户数据说明",
-    "accountDataNoticeDesc": "由于存储方式的兼容性问题，之前的账户信息并没有迁移保留。如果您需要使用原账户，请使用相同的用户名再次创建一次即可，不影响后续的正常接码使用。",
-    "howToRecover": "如何恢复原账户",
-    "recoverStep1": "使用与之前相同的用户名创建新账户",
-    "recoverStep2": "设置一个新密码（可以与之前相同或不同）",
-    "recoverStep3": "原邮箱地址的邮件将继续正常接收",
-    "apology": "对于此次更新带来的不便，我们深表歉意。感谢您对 DuckMail 的支持！",
+    "storageUpgradeDesc": "由之前的ddker邮箱更改为可视化邮箱系统，并进行大量数据库强化",
+    "accountDataNotice": "暂无",
+    "accountDataNoticeDesc": "暂无",
+    "howToRecover": "原来的账户如何换绑",
+    "recoverStep1": "联系作者或直接联系您购买账号的商家",
+    "apology": "对于此次更新带来的不便，我们深表歉意。感谢您的支持！",
     "understand": "我知道了"
   },
   "providerWarning": {
