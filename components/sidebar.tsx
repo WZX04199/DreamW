@@ -21,10 +21,6 @@ export default function Sidebar({ activeItem, onItemClick, isMobile = false }: S
 
   const bottomItems = [
     { id: "update-notice", label: t("updates"), icon: Bell },
-    { id: "api", label: t("api"), icon: Code },
-    { id: "faq", label: t("faq"), icon: HelpCircle },
-    { id: "privacy", label: t("privacy"), icon: MessageSquare },
-    { id: "github", label: "GitHub", icon: ExternalLink },
   ]
 
   return (
@@ -34,12 +30,12 @@ export default function Sidebar({ activeItem, onItemClick, isMobile = false }: S
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden">
               <img
-                src="https://img.116119.xyz/img/2025/06/08/547d9cd9739b8e15a51e510342af3fb0.png"
+                src="https://cloudflarecnimg.scdn.io/i/6a188eb10c8ee_1779994289.png"
                 alt="DuckMail Logo"
                 className="w-full h-full object-contain"
               />
             </div>
-            <span className="font-semibold text-lg text-gray-800 dark:text-white">duckmail.sbs</span>
+            <span className="font-semibold text-lg text-gray-800 dark:text-white">作者闲鱼：每天都好困</span>
           </div>
         </div>
       )}
