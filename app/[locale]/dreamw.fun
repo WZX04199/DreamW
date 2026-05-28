@@ -80,7 +80,7 @@ function MainContent() {
     setIsCreatingAccount(true)
 
     const maxAttempts = 5
-    const domain = "dreamw.fun"
+    const domain = "duckmail.sbs"
 
     for (let attempt = 0; attempt < maxAttempts; attempt++) {
       const username = generateRandomString(10)
