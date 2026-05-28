@@ -77,7 +77,7 @@ export default function Sidebar({ activeItem, onItemClick, isMobile = false }: S
           )
         })}
 
-        <div className="text-xs text-gray-400 mt-4 pt-2 border-t border-gray-200 dark:border-gray-700">© duckmail.sbs</div>
+        <div className="text-xs text-gray-400 mt-4 pt-2 border-t border-gray-200 dark:border-gray-700">作者闲鱼：每天都好困 Steam专业账号提供商</div>
       </div>
     </Card>
   )
