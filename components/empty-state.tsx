@@ -17,13 +17,13 @@ export default function EmptyState({ onCreateAccount, isAuthenticated, isCreatin
       <div className="mb-6">
         <div className="w-32 h-32 mx-auto flex items-center justify-center">
           <img
-            src="https://img.116119.xyz/img/2025/06/08/547d9cd9739b8e15a51e510342af3fb0.png"
-            alt="DuckMail Logo"
+            src="https://cloudflarecnimg.scdn.io/i/6a188eb10c8ee_1779994289.png"
+            alt="作者闲鱼：每天都好困"
             className="w-full h-full object-contain"
           />
         </div>
         <p className="text-center text-xs font-medium text-gray-400 dark:text-gray-500 tracking-widest uppercase mt-2">
-          DuckMail
+          作者闲鱼：每天都好困    一个懂编程的专业号商
         </p>
       </div>
 
