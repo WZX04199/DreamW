@@ -80,7 +80,7 @@ function MainContent() {
     setIsCreatingAccount(true)
 
     const maxAttempts = 5
-    const domain = "duckmail.sbs"
+    const domain = "dreamw.fun"
 
     for (let attempt = 0; attempt < maxAttempts; attempt++) {
       const username = generateRandomString(10)
@@ -92,8 +92,8 @@ function MainContent() {
         await register(email, password, 0)
 
         toast({
-          title: t("tempMailCreated"),
-          description: t("checkBanner"),
+          title: t("临时邮箱已创建"),
+          description: t("请查看上方横幅获取密码"),
           color: "success",
           variant: "flat",
           icon: <CheckCircle size={16} />
@@ -119,8 +119,8 @@ function MainContent() {
         // 其他错误直接展示给用户
         console.error("一键创建临时邮箱失败:", error)
         toast({
-          title: t("createFailed"),
-          description: message || t("createFailedDesc"),
+          title: t("创建失败"),
+          description: message || t("创建临时邮箱失败，请稍后重试"),
           color: "danger",
           variant: "flat",
           icon: <AlertCircle size={16} />
@@ -140,7 +140,7 @@ function MainContent() {
       router.replace(pathname, { locale: newLocale })
     })
     toast({
-      title: newLocale === "en" ? t("switchedToEn") : t("switchedToZh"),
+      title: newLocale === "en" ? t("已切换至英文") : t("已切换至中文"),
       color: "primary",
       variant: "flat",
       icon: <Languages size={16} />
@@ -175,8 +175,8 @@ function MainContent() {
   const handleDeleteMessageInDetail = (messageId: string) => {
     setSelectedMessage(null)
     toast({
-      title: t("messageDeleted"),
-      description: t("messageDeletedDesc", { id: messageId }),
+      title: t("邮件已删除"),
+      description: t("已删除邮件 {id}", { id: messageId }),
       color: "success",
       variant: "flat",
       icon: <CheckCircle size={16} />
@@ -193,7 +193,7 @@ function MainContent() {
 
     if (item === "refresh") {
       toast({
-        title: t("refreshing"),
+        title: t("正在刷新"),
         color: "primary",
         variant: "flat",
         icon: <RefreshCw size={16} />
@@ -229,7 +229,7 @@ function MainContent() {
 
     toast({
       title: item,
-      description: t("comingSoon"),
+      description: t("敬请期待"),
       color: "warning",
       variant: "flat",
       icon: <Navigation size={16} />
@@ -261,12 +261,12 @@ function MainContent() {
               <div className="flex items-center space-x-2">
                 <div className="w-6 h-6 rounded-lg flex items-center justify-center overflow-hidden">
                   <img
-                    src="https://img.116119.xyz/img/2025/06/08/547d9cd9739b8e15a51e510342af3fb0.png"
-                    alt="DuckMail Logo"
+                    src="https://cloudflarecnimg.scdn.io/i/6a188eb10c8ee_1779994289.png"
+                    alt="DreamW Mail Logo"
                     className="w-full h-full object-contain"
                   />
                 </div>
-                <span className="font-semibold text-lg text-gray-800 dark:text-white">duckmail.sbs</span>
+                <span className="font-semibold text-lg text-gray-800 dark:text-white">作者闲鱼：每天都好困</span>
               </div>
               <div className="w-8" />
             </div>
@@ -327,12 +327,12 @@ function MainContent() {
                   <div className="flex items-center space-x-2">
                     <div className="w-6 h-6 rounded-lg flex items-center justify-center overflow-hidden">
                       <img
-                        src="https://img.116119.xyz/img/2025/06/08/547d9cd9739b8e15a51e510342af3fb0.png"
-                        alt="DuckMail Logo"
+                        src="https://cloudflarecnimg.scdn.io/i/6a188eb10c8ee_1779994289.png"
+                        alt="DreamW Mail Logo"
                         className="w-full h-full object-contain"
                       />
                     </div>
-                    <span className="font-semibold text-lg text-gray-800 dark:text-white">duckmail.sbs</span>
+                    <span className="font-semibold text-lg text-gray-800 dark:text-white">作者闲鱼：每天都好困</span>
                   </div>
                   <Button
                     isIconOnly
